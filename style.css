@@ -22,11 +22,11 @@
   }
 
   .card-container{
-    width: 220px;
+    max-width: 320px;
     /* height: 375px;   */
     background-color: var(--White);
     border-radius: 1em;
-    padding: .7em;
+    padding: .8em;
   }
 
   img {
@@ -47,14 +47,14 @@
   }
 
   .one {
-      font-size: 14px;
+      font-size: 22px;
       font-weight: 700;
       color: var(--Dark-blue);
       margin-bottom: .5em;
   }
 
   .two {
-      font-size:10px;
+      font-size: 16px;
       font-weight: 400;
       color: var(--Grayish-blue);
   }
