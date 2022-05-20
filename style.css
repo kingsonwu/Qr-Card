@@ -23,23 +23,17 @@
 
   .card-container{
     max-width: 320px;
-    /* height: 375px;   */
     background-color: var(--White);
     border-radius: 1em;
-    padding: .8em;
+    padding: 1em;
   }
 
   img {
-    display: block;
     max-width: 100%;
-    /* max-height: 100%; */
     border-radius: .5em;
-    margin: auto;
+   
   }
 
-  .card-bottom {
-    padding: 1em;
-  }
 
   p {
     font-family: "Outfit";
@@ -50,11 +44,12 @@
       font-size: 22px;
       font-weight: 700;
       color: var(--Dark-blue);
-      margin-bottom: .5em;
+      margin: 1em 0 .8em 0
   }
 
   .two {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 400;
       color: var(--Grayish-blue);
+      margin: 1em
   }
